@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: domain-20-domain
+  description: A collection of all Entities
+spec:
+  targets:
+    - ./domain/domain-20-domain.yaml 
+    - ./systems/*.yaml
+    - ./components/*.yaml
+    - ./apis/*.yaml
+    - ./resources/*.yaml
